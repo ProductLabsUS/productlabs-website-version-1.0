@@ -29,6 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
         message: document.getElementById('message').value.trim()
       };
 
+      // Validate terms acceptance
+      const acceptTerms = document.getElementById('acceptTerms');
+      if (acceptTerms && !acceptTerms.checked) {
+        showMessage('Please accept the Terms of Service and Privacy Policy to continue.', 'error');
+        return;
+      }
+
       // Validate email format
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(formData.email)) {
