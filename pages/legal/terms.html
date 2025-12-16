@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Product Labs Legal Terms - Access our Terms of Service, Data Processing Agreement, and other legal documents.">
+  <title>Legal Documents & Terms - Product Labs</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+  
+  <style>
+    .legal-hub {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    .legal-hub h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--color-text-dark);
+      text-align: center;
+    }
+    
+    .legal-hub .subtitle {
+      color: var(--color-text-muted);
+      margin-bottom: 3rem;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+    
+    .legal-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    .legal-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .legal-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+    
+    .legal-card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      color: var(--color-text-dark);
+    }
+    
+    .legal-card p {
+      color: var(--color-text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+    
+    .legal-card .read-more {
+      color: var(--color-primary);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .legal-card .read-more svg {
+      transition: transform 0.3s ease;
+    }
+    
+    .legal-card:hover .read-more svg {
+      transform: translateX(5px);
+    }
+    
+    .legal-card-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    
+    .legal-card-icon svg {
+      width: 24px;
+      height: 24px;
+      color: white;
+    }
+
+    .page-hero .container {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .legal-hub h1 {
+        font-size: 2rem;
+      }
+      
+      .legal-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ========== Navbar (Loaded Dynamically) ========== -->
+  <nav id="navbar-placeholder"></nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="hero-title">Legal Documents & Terms</h1>
+        <p class="hero-subtitle">Review our policies and agreements</p>
+      </div>
+    </section>
+
+    <!-- Legal Documents Hub -->
+    <section class="section" style="padding-top: 4rem; padding-bottom: 4rem;">
+      <div class="legal-hub">
+        
+        <p class="subtitle">Access all our legal policies and agreements in one place. These documents outline how we operate and protect your interests.</p>
+        
+        <div class="legal-cards">
+          <!-- Terms of Service -->
+          <a href="/pages/legal/terms-of-service.html" class="legal-card">
+            <div class="legal-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h2>Terms of Service</h2>
+            <p>The terms and conditions governing your use of our services, including your rights and responsibilities as a customer.</p>
+            <span class="read-more">
+              Read Document
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- Data Processing Agreement -->
+          <a href="/pages/legal/data-processing-agreement.html" class="legal-card">
+            <div class="legal-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+              </svg>
+            </div>
+            <h2>Data Processing Agreement</h2>
+            <p>Our commitment to handling your data securely and in compliance with data protection regulations.</p>
+            <span class="read-more">
+              Read Document
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- Professional Services Agreement -->
+          <a href="/pages/legal/professional-services-agreement.html" class="legal-card">
+            <div class="legal-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h2>Professional Services Agreement</h2>
+            <p>Terms governing professional consulting, implementation, and support services we provide.</p>
+            <span class="read-more">
+              Read Document
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- Supplemental Terms -->
+          <a href="/pages/legal/supplemental-terms.html" class="legal-card">
+            <div class="legal-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+              </svg>
+            </div>
+            <h2>Supplemental Terms</h2>
+            <p>Additional terms that apply to specific services or features beyond our standard Terms of Service.</p>
+            <span class="read-more">
+              Read Document
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer (Loaded Dynamically) ========== -->
+  <footer id="footer-placeholder"></footer>
+
+  <!-- Scripts -->
+  <script src="/js/main.js"></script>
+</body>
+</html>
